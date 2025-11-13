@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Tech Store - Элегантные карточки товаров</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Premium Tech Store</h1>
+            <p>Откройте для себя инновационные технологии с нашими премиальными продуктами</p>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active">Все товары</button>
+            <button class="filter-btn">Смартфоны</button>
+            <button class="filter-btn">Аксессуары</button>
+            <button class="filter-btn">Умные часы</button>
+            <button class="filter-btn">Ноутбуки</button>
+        </div>
+
+        <div class="products-grid">
+            <!-- Карточка 1 -->
+            <div class="product-card">
+                <div class="product-card__badge">Хит продаж</div>
+                <div class="product-card__favorite">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="product-card__image-wrapper">
+                    <img src="https://im.indiatimes.in/photogallery/2012/Dec/zen_ultraphone_u1_dual_sim_android_phones_1355986225_1355986234.jpg" 
+                         alt="Смартфон нового поколения" class="product-card__image">
+                </div>
+                <div class="product-card__content">
+                    <div class="product-card__category">Смартфоны</div>
+                    <h3 class="product-card__title">UltraPhone X Pro</h3>
+                    <p class="product-card__description">Мощный смартфон с тройной камерой 108 МП, 8K видео и супербыстрой зарядкой.</p>
+                    
+                    <div class="product-card__rating">
+                        <div class="product-card__stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="product-card__reviews">128 отзывов</span>
+                    </div>
+                    
+                    <div class="product-card__price">
+                        <span class="product-card__current-price">64 990 ₽</span>
+                        <span class="product-card__old-price">74 990 ₽</span>
+                        <span class="product-card__discount">-13%</span>
+                    </div>
+                    
+                    <div class="product-card__footer">
+                        <button class="product-card__button">
+                            <i class="fas fa-shopping-cart"></i> В корзину
+                        </button>
+                        <button class="product-card__button product-card__button--secondary">
+                            <i class="far fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 2 -->
+            <div class="product-card">
+                <div class="product-card__badge">Новинка</div>
+                <div class="product-card__favorite">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="product-card__image-wrapper">
+                    <img src="https://cdn.dsmcdn.com/ty1596/prod/QC/20241106/16/6ea75234-f4d6-3412-b9c2-1c39fca239f6/1_org_zoom.jpg" 
+                         alt="Умные часы премиум класса" class="product-card__image">
+                </div>
+                <div class="product-card__content">
+                    <div class="product-card__category">Умные часы</div>
+                    <h3 class="product-card__title">Smart Watch Elite</h3>
+                    <p class="product-card__description">Элегантные умные часы с отслеживанием здоровья, ЭКГ и 7-дневной батареей.</p>
+                    
+                    <div class="product-card__rating">
+                        <div class="product-card__stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="product-card__reviews">64 отзыва</span>
+                    </div>
+                    
+                    <div class="product-card__price">
+                        <span class="product-card__current-price">24 990 ₽</span>
+                    </div>
+                    
+                    <div class="product-card__footer">
+                        <button class="product-card__button">
+                            <i class="fas fa-shopping-cart"></i> В корзину
+                        </button>
+                        <button class="product-card__button product-card__button--secondary">
+                            <i class="far fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 3 -->
+            <div class="product-card">
+                <div class="product-card__favorite active">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="product-card__image-wrapper">
+                    <img src="https://cdn1.ozone.ru/s3/multimedia-1-8/7002167876.jpg" 
+                         alt="Беспроводные наушники" class="product-card__image">
+                </div>
+                <div class="product-card__content">
+                    <div class="product-card__category">Аксессуары</div>
+                    <h3 class="product-card__title">Audio Pro X5</h3>
+                    <p class="product-card__description">Беспроводные наушники с активным шумоподавлением и 30-часовой работой.</p>
+                    
+                    <div class="product-card__rating">
+                        <div class="product-card__stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="product-card__reviews">215 отзывов</span>
+                    </div>
+                    
+                    <div class="product-card__price">
+                        <span class="product-card__current-price">14 990 ₽</span>
+                        <span class="product-card__old-price">19 990 ₽</span>
+                        <span class="product-card__discount">-25%</span>
+                    </div>
+                    
+                    <div class="product-card__footer">
+                        <button class="product-card__button">
+                            <i class="fas fa-shopping-cart"></i> В корзину
+                        </button>
+                        <button class="product-card__button product-card__button--secondary">
+                            <i class="far fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 4 -->
+            <div class="product-card">
+                <div class="product-card__badge">Рекомендуем</div>
+                <div class="product-card__favorite">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="product-card__image-wrapper">
+                    <img src="https://avatars.mds.yandex.net/get-mpic/11474376/2a0000018c1fae38233f636d780ab3082f10/orig" 
+                         alt="Ультрабук бизнес класса" class="product-card__image">
+                </div>
+                <div class="product-card__content">
+                    <div class="product-card__category">Ноутбуки</div>
+                    <h3 class="product-card__title">UltraBook Pro 14"</h3>
+                    <p class="product-card__description">Мощный ультрабук с процессором M2, 16 ГБ RAM и дисплеем Retina.</p>
+                    
+                    <div class="product-card__rating">
+                        <div class="product-card__stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="product-card__reviews">89 отзывов</span>
+                    </div>
+                    
+                    <div class="product-card__price">
+                        <span class="product-card__current-price">129 990 ₽</span>
+                    </div>
+                    
+                    <div class="product-card__footer">
+                        <button class="product-card__button">
+                            <i class="fas fa-shopping-cart"></i> В корзину
+                        </button>
+                        <button class="product-card__button product-card__button--secondary">
+                            <i class="far fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 5 -->
+            <div class="product-card">
+                <div class="product-card__favorite">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="product-card__image-wrapper">
+                    <img src="https://avatars.mds.yandex.net/get-mpic/4614113/img_id7161061811978986933.jpeg/orig" 
+                         alt="Портативная колонка" class="product-card__image">
+                </div>
+                <div class="product-card__content">
+                    <div class="product-card__category">Аудио</div>
+                    <h3 class="product-card__title">SoundSphere 360</h3>
+                    <p class="product-card__description">Портативная колонка с панорамным звуком и защитой от воды IPX7.</p>
+                    
+                    <div class="product-card__rating">
+                        <div class="product-card__stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <span class="product-card__reviews">42 отзыва</span>
+                    </div>
+                    
+                    <div class="product-card__price">
+                        <span class="product-card__current-price">8 990 ₽</span>
+                        <span class="product-card__old-price">11 990 ₽</span>
+                        <span class="product-card__discount">-25%</span>
+                    </div>
+                    
+                    <div class="product-card__footer">
+                        <button class="product-card__button">
+                            <i class="fas fa-shopping-cart"></i> В корзину
+                        </button>
+                        <button class="product-card__button product-card__button--secondary">
+                            <i class="far fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карточка 6 -->
+            <div class="product-card">
+                <div class="product-card__badge">Выбор редакции</div>
+                <div class="product-card__favorite">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="product-card__image-wrapper">
+                    <img src="https://avatars.mds.yandex.net/i?id=583431e79dfd26da44feec78b0ec148cf1e0f96f-6274953-images-thumbs&n=13" 
+                         alt="Игровая консоль" class="product-card__image">
+                </div>
+                <div class="product-card__content">
+                    <div class="product-card__category">Гейминг</div>
+                    <h3 class="product-card__title">GameStation Pro</h3>
+                    <p class="product-card__description">Мощная игровая консоль с поддержкой 8K и библиотекой из 100+ игр.</p>
+                    
+                    <div class="product-card__rating">
+                        <div class="product-card__stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="product-card__reviews">312 отзывов</span>
+                    </div>
+                    
+                    <div class="product-card__price">
+                        <span class="product-card__current-price">49 990 ₽</span>
+                    </div>
+                    
+                    <div class="product-card__footer">
+                        <button class="product-card__button">
+                            <i class="fas fa-shopping-cart"></i> В корзину
+                        </button>
+                        <button class="product-card__button product-card__button--secondary">
+                            <i class="far fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
